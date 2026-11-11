@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tan Wenxin | Tsinghua University</title>
+  <meta name="description" content="Tan Wenxin — undergraduate student at Tsinghua University working on LLM agents, CognitiveAI, Explainable AI, multimodal learning, and evaluation.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="site-name" href="#about">Tan Wenxin</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <img class="portrait" src="profile.jpg" alt="Tan Wenxin">
+      <h1>Tan Wenxin</h1>
+      <p class="chinese-name">谭雯心</p>
+      <p class="role">Undergraduate Student</p>
+      <p class="affiliation">Department of Automation<br>Tsinghua University</p>
+      <div class="sidebar-links">
+        <a href="mailto:twx23@mails.tsinghua.edu.cn">Email</a>
+        <a href="https://scholar.google.com/citations?hl=en&user=XJkJJXcAAAAJ" target="_blank" rel="noreferrer">Google Scholar</a>
+        <a href="https://github.com/Flipped23" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+      <p class="sidebar-note">Beijing, China</p>
+    </aside>
+
+    <article class="content">
+      <section id="about">
+        <h2>About</h2>
+        <p>I am an undergraduate student in the Department of Automation at Tsinghua University. I will be a direct-entry Ph.D. student in the Department of Automation at Tsinghua University in 2027, advised by Prof. Song-Chun Zhu. My research interests lie broadly in <strong>LLM agents, multi-agent systems, cognitive AI, explainable AI, multimodal models, post-training, and evaluation</strong>. I am particularly interested in how intelligent systems can understand people and their latent states, reason and adapt through interaction, and make reliable decisions over extended contexts. My current work explores topics including human value and preference understanding, longitudinal person modeling, agent evaluation, multimodal reasoning, and post-training for large language models.
+        <p>I am always open to discussing new ideas and exploring potential collaborations. If you are interested in related research directions, feel free to reach out.</p>
+        <div class="quick-facts">
+          <div><span class="fact-label">GPA</span><span class="fact-value">3.93 / 4.0</span></div>
+          <div><span class="fact-label">Rank</span><span class="fact-value">7 / 182</span></div>
+          <div><span class="fact-label">IELTS</span><span class="fact-value">7.5</span></div>
+        </div>
+      </section>
+
+      <section id="publications">
+        <h2>Publications</h2>
+        <div class="publication">
+          <div class="pub-year">2026</div>
+          <div class="pub-main">
+            <h3>Implicit Value Probing: Inferring Human Value Preferences via Strategic Multi-Turn Conversations</h3>
+            <p class="authors"><strong>Tan Wenxin</strong>, et al.</p>
+            <p class="venue">NeurIPS 2026</p>
+            <p class="pub-desc">A benchmark for evaluating whether LLM agents can infer latent human value preferences through socially constrained, multi-turn interaction rather than static questionnaires.</p>
+            <div class="pub-links">
+              <a href="https://neurips.cc/virtual/2026/loc/sydney/poster/150324" target="_blank" rel="noreferrer">Paper</a>
+              <a href="https://github.com/Flipped23/implicit-value-probing" target="_blank" rel="noreferrer">Code</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="research">
+        <h2>Selected Research & Projects</h2>
+        <div class="entry">
+          <div class="entry-head"><h3>Implicit Value Probing & Evaluation</h3><span>2025.09 – Present</span></div>
+          <p class="entry-meta">Beijing Institute for General Artificial Intelligence (BIGAI)</p>
+          <ul>
+            <li>Formulated a multi-turn value probing task under social constraints and built an interactive simulation and automated evaluation framework.</li>
+            <li>Developed Value-Prober-8B with structured distillation and post-training on Qwen3-8B, together with a vLLM-based inference pipeline.</li>
+            <li>Designed human validation and cross-model robustness studies for the benchmark and value inference process.</li>
+          </ul>
+        </div>
+        <div class="entry">
+          <div class="entry-head"><h3>Multimodal Model Adaptation & Representation Alignment</h3><span>2026.06 – 2026.09</span></div>
+          <p class="entry-meta">Zhipu AI · Research Intern</p>
+          <ul>
+            <li>Built a lightweight visual injection framework with a frozen GLM-4-9B and CLIP/ViT encoders, and compared multiple representation-alignment strategies.</li>
+            <li>Used counterfactual tests and layer-wise CKA analysis to diagnose task-relevant representation bottlenecks.</li>
+            <li>Refactored a two-stream Particle Transformer into the Hugging Face <code>PreTrainedModel</code>/<code>PretrainedConfig</code> interface and verified forward/backward numerical consistency.</li>
+          </ul>
+        </div>
+        <div class="entry">
+          <div class="entry-head"><h3>Multimodal Emotion Understanding</h3><span>2025.07 – 2025.09</span></div>
+          <p class="entry-meta">Beijing Institute for General Artificial Intelligence (BIGAI)</p>
+          <ul>
+            <li>Worked on multi-turn video-dialogue emotion recognition using cold-start training, GRPO/GMPO, and context end-to-end training.</li>
+            <li>Improved contextual and multimodal reasoning on MELD, reaching approximately 68% accuracy.</li>
+          </ul>
+        </div>
+        <div class="entry">
+          <div class="entry-head"><h3>Vision-Language Model Preference Optimization</h3><span>2025.01 – 2025.05</span></div>
+          <p class="entry-meta">Beijing Institute for General Artificial Intelligence (BIGAI)</p>
+          <ul>
+            <li>Studied behavioral differences between SFT and DPO for multimodal scene understanding, including hallucination mitigation and transfer to 3D scenes.</li>
+            <li>Contributed to multimodal data construction and statistical data-quality evaluation.</li>
+          </ul>
+        </div>
+        <div class="entry">
+          <div class="entry-head"><h3>Multi-Agent Document Reasoning Pipeline</h3><span>2025.03 – 2025.05</span></div>
+          <p class="entry-meta">Big Eyes Lab</p>
+          <ul><li>Designed a multi-agent workflow for problem understanding, code/tool invocation, information extraction, and result integration for long-document tasks.</li></ul>
+        </div>
+      </section>
+
+      <section id="experience">
+        <h2>Research & Industry Experience</h2>
+        <div class="timeline">
+          <div class="timeline-row"><div class="timeline-date">2026</div><div><strong>Zhipu AI</strong><span>Research Intern · Multimodal Learning / Model Adaptation / Research Engineering</span></div></div>
+          <div class="timeline-row"><div class="timeline-date">2025–Present</div><div><strong>Beijing Institute for General Artificial Intelligence (BIGAI)</strong><span>Research on LLM agents, value inference, multimodal emotion understanding, and vision-language models</span></div></div>
+          <div class="timeline-row"><div class="timeline-date">2025</div><div><strong>Big Eyes Lab</strong><span>Multi-agent system development</span></div></div>
+        </div>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <div class="entry compact">
+          <div class="entry-head"><h3>Tsinghua University</h3><span>2023.08 – Present</span></div>
+          <p class="entry-meta">Department of Automation · General Artificial Intelligence Program</p>
+          <p>GPA: 3.93/4.0 · Rank: 7/182 · IELTS 7.5 · CET-4 666 · CET-6 651</p>
+        </div>
+      </section>
+
+      <section id="honors">
+        <h2>Honors</h2>
+        <ul class="plain-list">
+          <li><strong>National Scholarship</strong>, 2025 & 2026</li>
+          <li><strong>Huang Yicong General Artificial Intelligence Scholarship</strong>, 2024 & 2025</li>
+          <li><strong>Tsinghua Academic Excellence Scholarship</strong>, 2024</li>
+          <li><strong>Tsinghua Social Work Excellence Scholarship</strong>, 2024</li>
+          <li><strong>Outstanding Student Science & Technology Association Member</strong>, 2025</li>
+        </ul>
+      </section>
+
+      <section id="service">
+        <h2>Leadership & Service</h2>
+        <ul class="plain-list">
+          <li>Head, Academic & Innovation Division, Student Science and Technology Association, Department of Automation, Tsinghua University (2025–2026)</li>
+          <li>Head, Publicity & Planning Division, Student Science and Technology Association, Wuqiong College (2025–2026)</li>
+          <li>Core Member, Information Service Center, Tsinghua University Youth League Committee (2025–2026)</li>
+          <li>Member, External Relations Division, Student Union, Department of Automation (2024–2025)</li>
+        </ul>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <p><strong>Research:</strong> LLM Agents, Post-training, Multimodal Learning, Benchmark & Evaluation<br>
+        <strong>Tools:</strong> Python, PyTorch, Transformers, vLLM, LoRA/PEFT, DeepSpeed ZeRO<br>
+        <strong>Training:</strong> SFT, DPO, GRPO</p>
+      </section>
+
+      <footer><p>Last updated November 2026 · <a href="https://scholar.google.com/citations?hl=en&user=XJkJJXcAAAAJ" target="_blank" rel="noreferrer">Google Scholar</a> · <a href="https://github.com/Flipped23" target="_blank" rel="noreferrer">GitHub</a></p></footer>
+    </article>
+  </main>
+</body>
+</html>
